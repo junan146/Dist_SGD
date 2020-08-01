@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
     timer = Timer()
     i = 0
-    while i <= 2000:
+    while i <= 20:
         if i % 10 == 0:
             # Evaluate the current model.
             loss, accuracy = worker.compute_loss_accuracy()
